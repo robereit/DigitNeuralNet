@@ -1,0 +1,12 @@
+Code has the following layout. (Requires GNU Octave).
+
+initBp.m -- Initialize the neural network
+sigmoid.m -- Function for calculating a sigmoid
+updateWts.m -- Update the weights of a network
+calcGrad.m -- Calculate the gradient of the neural network
+	functions
+runBp.m -- run backpropagation on the training set, and output
+	training error over so many iterations
+plotDigits.m -- used to plot a set of digits
+hiddenUnitsS.m -- Used to calculate the optimal number of neurons to minimize
+	validation error. 
